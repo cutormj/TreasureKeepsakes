@@ -1,13 +1,10 @@
 
 import { Image } from '@nextui-org/image'
 import React from 'react'
-import BusinessNavbar from './BusinessNavbar';
 
-function ProductHeros({product}) {
+function BusinessHeros({business}) {
   return (
-    <div>
-      <BusinessNavbar />
-      <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <Image
@@ -32,8 +29,7 @@ function ProductHeros({product}) {
         </div>
       </div>
     </section>
-    </div>
   );
 }
 
-export default ProductHeros
+export default BusinessHeros

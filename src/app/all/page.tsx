@@ -3,7 +3,7 @@ import { getUsers } from '@/actions/user-action';
 
 async function Page() {
 //   dbConnect();
-  const users = await getUsers();
+  // const users = await getUsers();
 
   return (
     <div>
